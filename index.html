@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Belgium SMP</title>
+    <style>
+    body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d0d0d;
+    color: white;
+}
+
+.head {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(black, #1a1a1a);
+}
+
+.head-img {
+    width: 80%;
+    max-width: 900px;
+    border: 4px solid #ffd900;
+    border-radius: 10px;
+}
+
+.head h1 {
+    color: #ffd900;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.head p {
+    color: #9cff00;
+    font-size: 20px;
+}
+
+.server-info {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.server-info h2 {
+    color: #ffd900;
+    font-size: 36px;
+}
+ .season-images {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .season-images img {
+            width: calc((100% - 20px) / 3);
+            max-width: 100%;
+            height: auto;
+            border: 4px solid #ffd900;
+            border-radius: 10px;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .season-images img:hover {
+            transform: scale(1.06);
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+            z-index: 1;
+        }
+
+        @media (max-width: 900px) {
+            .season-images {
+                flex-wrap: wrap;
+            }
+
+            .season-images img {
+                width: calc(50% - 10px);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .season-images img {
+                width: 100%;
+            }
+        }
+.team {
+    background-color: #111;
+    padding: 50px 20px;
+    text-align: center;
+}
+.a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+}
+
+</style>
+</head>
+<body>
+
+    <header class="head">
+        <img src="img/BELGUIM-HARDCORE-SMP-20-12-2025.gif" class="head-img" alt="Belgium Hardcore SMP animated server banner with stylized text and Minecraft themed graphics"><br>
+        <video width="600" height="400" controls>
+            <source id="mp4_src" src="https://cdn.discordapp.com/attachments/1454989424562798642/1500870655514509392/intro_s5.mp4?ex=6a0882b9&is=6a073139&hm=eb2a64c54d4e07fb5e98ebfbb9b78c1f6591e42a9ccb6b025232e67e72115b3c&" type="video/mp4">
+        </video>
+    </header>
+
+    <section class="server-info">
+        <h2>Over de Server</h2>
+        <p>
+            Wat tekst , ik heb geen flauw idee wat ik hier moet zettenaaaaaaaa.
+        </p>
+
+        <div class="season-images">
+            <img src="img/season1.png" alt="foto van het seizoen">
+            <img src="img/season2.png" alt="foto van het seizoen">
+            <img src="img/season3.png" alt="foto van het seizoen">
+        </div>
+    </section>
+
+    <!-- OVER ONS -->
+    <section class="team">
+        
+
+        <h2>Het Staff Team</h2>
+        
+        <a href="staff.html">
+            <img src="img/staff.png" alt="Foto van het staff team">
+        </a>
+
+    </section>
+
+
+</body>
+</html>
